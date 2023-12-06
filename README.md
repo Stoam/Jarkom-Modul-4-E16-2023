@@ -9,26 +9,22 @@ Laporan Praktikum Jaringan Komputer Modul 4 Tahun 2023
 | 5025211127 | Nadif Mustafa        |
 
 ## Daftar Isi
-- [Laporan Resmi](#laporan-resmi)
-- [Daftar Isi](#daftar-isi)
-  - [Topologi PKT CIDR](#topologi-pkt-cidr)
-  - [Topologi GNS VLSM](#topologi-gns-vlsm)
-  - [Prefix IP](#prefix-ip)
-  - [Rute](#rute)
-- [VLSM](#vlsm)
-  - [Tree](#tree)
-  - [Pembagian IP](#pembagian-ip)
-  - [Konfigurasi Network](#konfigurasi-network)
-  - [Routing](#routing)
-  - [Testing](#testing)
-- [CIDR](#cidr)
-  - [Penggabungan IP](#penggabungan-ip)
-  - [Tree](#tree-1)
-  - [Pembagian IP](#pembagian-ip-1)
-  - [Testing](#testing-1)
- 
+- [Jarkom-Modul-4-E16-2023](#jarkom-modul-4-e16-2023)
+  - [Anggota Kelompok](#anggota-kelompok)
+  - [Daftar Isi](#daftar-isi)
+  - [VLSM](#vlsm)
+    - [Konfigurasi GNS3](#konfigurasi-gns3)
+  - [CIDR](#cidr)
+    - [Topologi CPT](#topologi-cpt)
+    - [Penggabungan Subnet](#penggabungan-subnet)
+    - [Tree](#tree)
+    - [Pembagian IP](#pembagian-ip)
+    - [Testing](#testing)
+
+## VLSM
 
 ### Konfigurasi GNS3
+
 - ROYAL CAPITAL 
 ```
 #A19
@@ -455,3 +451,74 @@ netmask 255.255.254.0
 gateway 192.214.6.1
 ```
 
+## CIDR
+
+### Topologi CPT
+
+![image](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/7cc7fbaa-3c91-4a75-ad73-496664e88303)
+
+### Penggabungan Subnet
+
+Kondisi awal **(A)**
+
+![Topologi Modul 4_A](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/50dd8c4c-8eeb-4308-b582-1ce929313ed3)
+
+![image](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/c7b1b642-54a4-4206-9a7a-259609de343c)
+
+Penggabungan pertama **(B)**
+
+![Topologi Modul 4_B](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/2ad35d92-3427-432a-adaa-0beb76e5e637)
+
+![image](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/596e86b3-eb83-4354-9108-a006fcdeb082)
+
+Penggabungan kedua **(C)**
+
+![Topologi Modul 4_C](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/fd0f1440-1143-4d22-b4f0-5b72cf37ff0c)
+
+![image](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/d6dfb079-1eb3-4d83-b391-b9d512e9a1eb)
+
+Penggabungan ketiga **(D)**
+
+![Topologi Modul 4_D](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/2a4e6530-15f7-4e76-8155-0b18f1ceffdf)
+
+![image](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/1e5dd335-352c-4816-b973-0192049c743a)
+
+Penggabungan keempat **(E)**
+
+![Topologi Modul 4_E](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/ca069a3e-e460-40e4-94f0-098f6f2ae4fb)
+
+![image](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/5fb22840-5883-457f-a846-3892d43c238b)
+
+Penggabungan kelima **(F)**
+
+![Topologi Modul 4_F](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/eb044e2c-7480-4f29-84a6-8b3a59dd3aca)
+
+![image](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/2753f906-1b26-4ff3-8e81-c294e138489a)
+
+Penggabungan keenam **(G)**
+
+![Topologi Modul 4_G](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/012151d2-a858-4d96-9a6a-03ad455497cb)
+
+![image](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/97277865-e4c4-4729-b56d-9c8833872248)
+
+Penggabungan ketujuh **(H)**
+
+![Topologi Modul 4_H](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/fabbd738-7a1e-4972-b0d6-77a9c804daa6)
+
+![image](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/7c247002-b5fe-47eb-8c76-e967b5510843)
+
+Penggabungan terakhir **(I)**
+
+![Topologi Modul 4_I](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/60993756-bdae-4fdc-b039-c8545220332c)
+
+![image](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/dff4fb3f-53f6-42f5-872b-76f09d99b6ca)
+
+### Tree
+
+![Modul 4_CIDR Tree](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/9c251fdd-e0b7-4ced-bb94-ec6a024a0686)
+
+### Pembagian IP
+
+![image](https://github.com/Stoam/Jarkom-Modul-4-E16-2023/assets/58579201/d9702265-8c19-497d-9de1-e651f2d9892b)
+
+### Testing
