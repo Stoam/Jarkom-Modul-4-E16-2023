@@ -455,3 +455,126 @@ netmask 255.255.254.0
 gateway 192.214.6.1
 ```
 
+### Routing
+
+##### Denken 
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.214.0.65
+```
+
+##### Lugner 
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.173.0.77
+```
+
+##### Linie
+```
+#A9
+route add -net 192.214.0.32 netmask  255.255.255.224 gw  192.214.0.21
+#A4
+route add -net 192.214.6.0 netmask 255.255.254.0 gw  192.214.0.21
+```
+
+##### Lawine
+```
+route add -net 192.214.6.0 netmask 255.255.254.0 gw 192.214.0.33
+```
+
+##### Heiter
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.214.0.21
+```
+
+##### Himmel
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.214.0.9
+```
+
+##### Flamme
+```
+#A1
+route add -net 192.214.5.0 netmask 255.255.252.0 gw 192.214.0.1
+#A3
+route add -net 192.214.0.88 netmask 255.255.255.248 gw 192.214.0.5
+```
+
+##### Fern
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.214.0.9
+```
+
+##### FRIEREN
+```
+#A5
+route add -net 192.214.0.0 netmask 255.255.255.252 gw 192.214.0.9
+#A1
+route add -net 192.214.5.0 netmask 255.255.252.0 gw 192.214.0.9
+#A2
+route add -net 192.214.8.0 netmask 255.255.252.0 gw 192.214.0.9
+#A6
+route add -net 192.214.0.4 netmask 255.255.255.252 gw 192.214.0.9
+#A3
+route add -net 192.214.0.88 netmask 255.255.255.248 gw 192.214.0.9
+```
+
+##### EISEN
+```
+#A20
+route add -net 192.214.12.0 netmask 255.255.252.0 gw 192.214.0.77
+#A21
+route add -net 192.214.5.0 netmask 255.255.255.0 gw 192.214.0.77
+
+#A15
+route add -net 192.214.1.0 netmask 255.255.255.0 gw 192.214.0.29
+#A12
+route add -net 192.214.0.20 netmask 255.255.255.252 gw 192.214.0.29
+#A9
+route add -net 192.214.0.32 netmask 255.255.255.224 gw 192.214.0.29
+#A4
+route add -net 192.214.6.0 netmask 255.255.255.252 gw 192.214.0.29
+```
+
+##### AURA
+```
+Frieren
+#A10
+route add -net 192.214.0.96 netmask 255.255.255.224 gw 192.214.0.17
+#A7
+route add -net 192.214.0.8 netmask 255.255.255.252 gw 192.214.0.17
+#A5
+route add -net 192.214.0.0 netmask 255.255.255.252 gw 192.214.0.17
+#A1
+route add -net 192.214.5.0 netmask 255.255.252.0 gw 192.214.0.17
+#A2
+route add -net 192.214.8.0 netmask 255.255.252.0 gw 192.214.0.17
+#A6
+route add -net 192.214.0.4 netmask 255.255.255.252 gw 192.214.0.17
+#A3
+route add -net 192.214.0.88 netmask 255.255.255.248 gw 192.214.0.17
+
+- Denken
+route add -net 192.214.0.128 netmask 255.255.255.128 gw 192.214.0.65
+
+- Eisen
+#A17
+route add -net 192.214.0.68 netmask 255.255.255.252 gw 192.214.0.25
+#A18
+route add -net 192.214.0.76 netmask 255.255.255.252 gw 192.214.0.25
+#A20
+route add -net 192.214.12.0 netmask 255.255.252.0 gw 192.214.0.25
+#A21
+route add -net 192.214.5.0 netmask 255.255.255.0 gw 192.214.0.25
+#A14
+route add -net 192.214.0.28 netmask 255.255.255.252 gw 192.214.0.25
+#A15
+route add -net 192.214.1.0 netmask 255.255.254.0 gw 192.214.0.25
+#A12
+route add -net 192.214.0.20 netmask 255.255.255.252 gw 192.214.0.25
+#A9
+route add -net 192.214.0.32 netmask 255.255.255.224 gw 192.214.0.25
+#A4
+route add -net 192.214.6.0 netmask 255.255.254.0 gw 192.214.0.25
+#A8
+route add -net 192.214.0.12 netmask 255.255.255.252 gw 192.214.0.25
+```
+
