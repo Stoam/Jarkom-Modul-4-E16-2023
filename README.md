@@ -35,6 +35,20 @@ Laporan Praktikum Jaringan Komputer Modul 4 Tahun 2023
 
 ## VLSM
 
+### Tree
+
+![image](image/tree_vlsm.png)
+
+### Pembagian IP
+
+![image](image/pembagian_ip.png)
+
+### Subnetting
+
+![image](image/subnet.png)
+
+![image](image/subnet_topo.png)
+
 ### Konfigurasi GNS3
 
 - ROYAL CAPITAL 
@@ -585,6 +599,11 @@ route add -net 192.214.6.0 netmask 255.255.254.0 gw 192.214.0.25
 #A8
 route add -net 192.214.0.12 netmask 255.255.255.252 gw 192.214.0.25
 ```
+
+### Testing
+
+![image](image/testing_1.png)
+![image](image/testing_2.png)
 
 ## CIDR
 
